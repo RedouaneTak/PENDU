@@ -1,0 +1,62 @@
+.lettre {
+  width: 70px;
+  height: 70px;
+  font-size: 50px;
+  margin: 10px;
+  margin-top: 5%;
+
+}
+
+
+header h1 {
+  text-align: center;
+}
+
+
+#motsRecherche {
+
+  font-size: 80px;
+  letter-spacing: 15px;
+
+}
+
+#mots {
+
+  text-align: center;
+
+}
+
+#clavier {
+
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+
+}
+
+#image {
+  width: 300px;
+  height: 500px;
+
+}
+
+#contenair {
+
+  margin-top: 5%;
+
+  display: flex;
+
+  border: solid black;
+
+  flex-direction: row;
+}
+
+.contenairResultat {
+  text-align: center;
+  height: 50px;
+}
+
+#resultat{
+  font-size: 50px;
+}
