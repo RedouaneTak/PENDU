@@ -143,12 +143,14 @@ function verifierLettre(lettre) {
   }
 
 
+  console.log(motTmp);
 
-  motEnRecherche = motTmp;
+
+ motEnRecherche = motTmp;
 
  motsRechercheVisible.innerHTML = motEnRecherche;
 
-
+motsRechercheVisible.innerHTML = motTmp;
   return trouver;
 
 

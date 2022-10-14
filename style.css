@@ -1,9 +1,12 @@
+
+
 .lettre {
-  width: 70px;
-  height: 70px;
-  font-size: 50px;
+  width: 80px;
+  height: 80px;
+  font-size: 60px;
   margin: 10px;
   margin-top: 5%;
+  border-radius: 10px;
 
 }
 
@@ -57,6 +60,27 @@ header h1 {
   height: 50px;
 }
 
-#resultat{
+#resultat {
   font-size: 50px;
 }
+
+
+#rejouer{
+  width: 40%;
+  height: 50px;
+  border:solid 2px black;
+  font-size: 30px;
+
+}
+
+#rejouer:hover{
+  background-color: darkgray;
+}
+
+
+.bas{
+  margin-top: 20px;
+  text-align: center;
+}
+
+
