@@ -1,5 +1,4 @@
 
-
 .lettre {
   width: 80px;
   height: 80px;
@@ -9,7 +8,6 @@
   border-radius: 10px;
 
 }
-
 
 
 header h1 {
@@ -66,22 +64,116 @@ header h1 {
 }
 
 
-#rejouer{
+#rejouer {
   width: 40%;
   height: 50px;
-  border:solid 2px black;
+  border: solid 2px black;
   font-size: 30px;
 
 }
 
-#rejouer:hover{
+#rejouer:hover {
   background-color: darkgray;
 }
 
 
-.bas{
+.bas {
   margin-top: 20px;
   text-align: center;
 }
+
+@media  screen and (max-width: 1440px) {
+
+  .lettre{
+    width: 60px;
+    height: 60px;
+    font-size: 45px;
+  }
+
+
+
+  #resultat {
+    font-size: 45px;
+  }
+
+}
+
+@media  screen and (max-width: 850px) {
+
+  .lettre{
+    width: 50px;
+    height: 50px;
+    font-size: 40px;
+  }
+
+  #image {
+    width: 200px;
+    height: 333px;
+
+  }
+
+  #resultat {
+    font-size: 35px;
+  }
+
+  #motsRecherche{
+    font-size: 60px;
+    letter-spacing: 10px;
+  }
+
+}
+
+
+@media  screen and (max-width: 600px) {
+  #contenair {
+
+    margin-top: 3%;
+
+    display: flex;
+
+    border: solid black;
+
+    flex-direction: column;
+  }
+
+  #clavier{
+    width: 95%;
+  }
+
+  #image{
+    width: 200px;
+    height: 333px;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+
+  #resultat {
+    font-size: 30px;
+  }
+
+  #motsRecherche{
+    font-size: 60px;
+    letter-spacing: 10px;
+  }
+
+  .lettre{
+    width: 45px;
+    height: 45px;
+    font-size: 35px;
+  }
+
+  #rejouer {
+    width: 40%;
+    height: 40px;
+    border: solid 2px black;
+    font-size: 25px;
+
+  }
+
+}
+
+
+
 
 
