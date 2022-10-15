@@ -11,7 +11,9 @@ btnRejouer.addEventListener("click", nouvellePartie);
 let resultatSpan = document.getElementById("resultat");
 let motsFailedToFind = document.getElementById("motsFailedToFind");
 
-var linkImg = "img/0"
+var linkImg = "img/0";
+
+var lol;
 
 nbErreur = 1;
 motChoisit = undefined;
