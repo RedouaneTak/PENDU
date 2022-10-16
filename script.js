@@ -1,4 +1,4 @@
-let dictionnaire = ['BONJOUR', 'MANGER', 'DORMIR', 'VOLER', 'JOUER']
+let dictionnaire = ['BONJOUR', 'MANGER', 'DORMIR', 'VOLER', 'JOUER','COURIR','MARCHER']
 //let dictionnaire = ['BONJOUR'];
 let alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
@@ -93,7 +93,7 @@ function testerLettre(e) {
   var urlImg=linkImg+nbErreur+".png";
   image.style.setProperty("background-image","url('"+urlImg+"')");
 
-} // TODO !!
+}
 
 function choisirMot() {
 
