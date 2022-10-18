@@ -1,5 +1,6 @@
+//dictionnaire de mots
 let dictionnaire = ['BONJOUR', 'MANGER', 'DORMIR', 'VOLER', 'JOUER','COURIR','MARCHER']
-//let dictionnaire = ['BONJOUR'];
+
 let alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
 
